@@ -1,0 +1,11 @@
+.git
+.gradle
+**/build
+build
+**/node_modules
+kotlin-js-store
+*.log
+*.tmp
+*.db
+*.trace.db
+agent-tools

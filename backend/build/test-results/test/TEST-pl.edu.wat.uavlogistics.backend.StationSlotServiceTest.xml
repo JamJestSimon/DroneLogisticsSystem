@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-06-17T13:20:32" hostname="JAMJESTPC" time="4.049">
+  <properties/>
+  <testcase name="agent can reserve its own parking slot when station parking is full()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.146"/>
+  <testcase name="reconcile keeps reservation while agent is busy in transit to reserved hub()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.477"/>
+  <testcase name="multi-slot cannot exceed capacity plus overbook margin()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.314"/>
+  <testcase name="re-reserve switches ephemeral waiter to a freed real slot()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.185"/>
+  <testcase name="full station rejects reserve when ephemeral is not allowed()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.349"/>
+  <testcase name="reservation is kept while agent is busy in flight to reserved hub()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.09"/>
+  <testcase name="multi-slot station allows one ephemeral when real slots are full()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.239"/>
+  <testcase name="reserve is exclusive per slot index like task claim()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.29"/>
+  <testcase name="single-slot cannot exceed capacity plus overbook margin()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.139"/>
+  <testcase name="overbook allows ephemeral reservation when capacity is full()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.14"/>
+  <testcase name="reservation is released when agent leaves hub with null current station()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.2"/>
+  <testcase name="ephemeral promotes to freed slot index on multi-slot station()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.422"/>
+  <testcase name="snapshot keeps return reservation on correct index when dock registry is cleared()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.511"/>
+  <testcase name="snapshot exposes ephemeral waiter for parking load()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.189"/>
+  <testcase name="confirm occupancy on second pad while peer occupies first pad()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.181"/>
+  <testcase name="ephemeral reservation promotes when occupant leaves hub()" classname="pl.edu.wat.uavlogistics.backend.StationSlotServiceTest" time="0.141"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

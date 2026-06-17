@@ -1,0 +1,38 @@
+> Task :kotlinNodeJsSetup UP-TO-DATE
+> Task :kotlinNpmCachesSetup
+> Task :kotlinRestoreYarnLock UP-TO-DATE
+> Task :kotlinYarnSetup UP-TO-DATE
+> Task :frontend:jsPackageJson UP-TO-DATE
+> Task :frontend:jsTestPackageJson UP-TO-DATE
+> Task :frontend:jsPublicPackageJson UP-TO-DATE
+> Task :frontend:jsTestPublicPackageJson UP-TO-DATE
+> Task :packageJsonUmbrella UP-TO-DATE
+> Task :rootPackageJson UP-TO-DATE
+> Task :kotlinNpmInstall UP-TO-DATE
+> Task :kotlinStoreYarnLock UP-TO-DATE
+> Task :frontend:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :frontend:compileKotlinJs UP-TO-DATE
+> Task :frontend:jsProcessResources UP-TO-DATE
+> Task :frontend:jsMainClasses UP-TO-DATE
+> Task :frontend:compileDevelopmentExecutableKotlinJs UP-TO-DATE
+> Task :frontend:jsDevelopmentExecutableCompileSync UP-TO-DATE
+
+> Task :frontend:jsBrowserDevelopmentRun
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8081/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.0.187:8081/
+<i> [webpack-dev-server] On Your Network (IPv6): http://[fe80::c67:26c9:d528:694d]:8081/
+<i> [webpack-dev-server] Content not from webpack is served from 'kotlin, ..\..\..\..\frontend\build\processedResources\js\main' directory
+<i> [webpack-dev-middleware] wait until bundle finished: /
+webpack 5.93.0 compiled successfully in 1329 ms
+webpack 5.93.0 compiled successfully in 725 ms
+webpack 5.93.0 compiled successfully in 605 ms
+
+> Task :frontend:jsBrowserDevelopmentRun FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+16 actionable tasks: 2 executed, 14 up-to-date

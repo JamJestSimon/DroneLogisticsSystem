@@ -1,0 +1,48 @@
+services:
+  gazebo-sim:
+    build:
+      context: ../..
+      dockerfile: runtime/docker/Dockerfile.agent-runtime
+    container_name: uav-gazebo-sim
+    entrypoint: ["/workspace/runtime/docker/start-gazebo-sim.sh"]
+    environment:
+      GZ_WORLD: ${GZ_WORLD:-default}
+      GZ_PARTITION: ${GZ_PARTITION:-uav-logistics}
+
+  gazebo-gui:
+    build:
+      context: ../..
+      dockerfile: runtime/docker/Dockerfile.agent-runtime
+    container_name: uav-gazebo-gui
+    entrypoint: ["/workspace/runtime/docker/start-gazebo-gui.sh"]
+    depends_on:
+      - gazebo-sim
+    ports:
+      - "${GAZEBO_GUI_NOVNC_PORT:-6080}:6080"
+    environment:
+      GZ_PARTITION: ${GZ_PARTITION:-uav-logistics}
+
+  agent-runtime:
+    build:
+      context: ../..
+      dockerfile: runtime/docker/Dockerfile.agent-runtime
+    depends_on:
+      - gazebo-sim
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      AGENT_ID: ${AGENT_ID:-20000000-0000-4000-8000-000000000001}
+      AGENT_TYPE: ${AGENT_TYPE:-UAV}
+      BACKEND_URL: ${BACKEND_URL:-http://host.docker.internal:8080}
+      PX4_MODEL: ${PX4_MODEL:-x500}
+      PX4_INSTANCE: ${PX4_INSTANCE:-0}
+      MAVLINK_PORT: ${MAVLINK_PORT:-14580}
+      GZ_IP: ${GZ_IP:-}
+      GZ_RELAY: ${GZ_RELAY:-}
+      GZ_PARTITION: ${GZ_PARTITION:-uav-logistics}
+      SIM_ORIGIN_LAT: ${SIM_ORIGIN_LAT:-47.397971}
+      SIM_ORIGIN_LON: ${SIM_ORIGIN_LON:-8.546164}
+      SIMULATION_GAZEBO_ENABLED: ${SIMULATION_GAZEBO_ENABLED:-true}
+      UAV_PRECISION_LANDING: ${UAV_PRECISION_LANDING:-true}
+      UAV_LAND_ACCEPTANCE_RADIUS_M: ${UAV_LAND_ACCEPTANCE_RADIUS_M:-2}
+      SIM_CARGO_MIN_AIR_Z_M: ${SIM_CARGO_MIN_AIR_Z_M:-2.0}

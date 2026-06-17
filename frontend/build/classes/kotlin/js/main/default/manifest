@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=2.0.21
+depends=org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin org.jetbrains.kotlinx\:atomicfu
+ir_signature_versions=1,2
+jsOutputName=uav-logistics-system-frontend
+metadata_version=1.4.1
+serializedIrFileFingerprints=1cznd9it1290y.3l3gs7h3nac48 2e032hwc9thjy.k1ihf83fg2fx 1ejud7k1xponv.2jpxfihj7uv1r 1omafnvrlhkjl.2kes2we0vpi58 5mg3dibwtvqb.jifugm4sa89o 1natoxi2ecs52.3tmortggkhy62 8sge7fvylbxm.39dco6a5gkz03 392fm0aj9c6n7.1n1my9sjvpb4d 16isd6gizkut3.25ed2tmwuynn7 3lvcvi4co8rlm.1dot7uv4jjttp sr0wh69t69e9.zv3obb0r9xz6 397izaiy5j132.1vp69rgknl4hp 18ztjlsk85uvi.8ih4aq3rpqt9 4z5vbx5hhaf1.3k8p024occtc2 2pe6nsztb37ld.2u96x54yamdbf
+serializedKlibFingerprint=2eg0hqqfcgve1.2o9h587tyij8c
+unique_name=pl.edu.wat.uavlogistics\:frontend

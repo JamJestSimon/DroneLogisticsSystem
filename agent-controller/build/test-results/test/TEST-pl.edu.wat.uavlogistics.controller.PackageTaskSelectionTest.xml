@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.controller.PackageTaskSelectionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-17T10:21:11" hostname="JAMJESTPC" time="0.004">
+  <properties/>
+  <testcase name="ugv-only task ignores uav peers()" classname="pl.edu.wat.uavlogistics.controller.PackageTaskSelectionTest" time="0.001"/>
+  <testcase name="ugv yields open package to equidistant uav()" classname="pl.edu.wat.uavlogistics.controller.PackageTaskSelectionTest" time="0.0"/>
+  <testcase name="closer eligible peer blocks task()" classname="pl.edu.wat.uavlogistics.controller.PackageTaskSelectionTest" time="0.001"/>
+  <testcase name="ugv yields open package to closer uav()" classname="pl.edu.wat.uavlogistics.controller.PackageTaskSelectionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

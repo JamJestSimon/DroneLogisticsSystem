@@ -1,0 +1,666 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :backend:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :common:processResources NO-SOURCE
+> Task :backend:processResources UP-TO-DATE
+> Task :common:compileKotlin
+> Task :common:compileJava NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar
+> Task :backend:compileKotlin
+> Task :backend:compileJava NO-SOURCE
+> Task :backend:classes UP-TO-DATE
+
+> Task :backend:run
+12:36:33.484 [main] INFO ktor.application -- Autoreload is disabled because the development mode is off.
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e ...
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e ...
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: file:/C:/Users/Szymon/Documents/Magisterka/Projekt/backend/build/resources/main/db/migration
+12:36:34.064 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.FileSystemClassPathLocationScanner -- Scanning starting at classpath root in filesystem: C:\Users\Szymon\Documents\Magisterka\Projekt\backend\build\resources\main\
+12:36:34.065 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.FileSystemClassPathLocationScanner -- Scanning for resources in path: C:\Users\Szymon\Documents\Magisterka\Projekt\backend\build\resources\main\db\migration (db/migration)
+12:36:34.067 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__initial_registry.sql
+12:36:34.067 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__shipment_event_timeline_index.sql
+12:36:34.067 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__agent_current_station.sql
+12:36:34.067 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__remove_station_charger_count.sql
+12:36:34.067 [main] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+12:36:34.271 [main] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__remove_station_charger_count.sql
+12:36:34.272 [main] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__shipment_event_timeline_index.sql
+12:36:34.272 [main] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__initial_registry.sql
+12:36:34.272 [main] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__agent_current_station.sql
+12:36:34.301 [main] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:/Users/Szymon/Documents/Magisterka/Projekt/build/runtime/uav-logistics-fresh (H2 2.3)
+12:36:34.302 [main] DEBUG org.flywaydb.core.FlywayExecutor -- Database Type: H2
+12:36:34.302 [main] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.3.232 (2024-08-11)
+12:36:34.302 [main] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+12:36:34.304 [main] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+12:36:34.304 [main] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+12:36:34.310 [main] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+12:36:34.311 [main] DEBUG org.flywaydb.core.FlywayExecutor -- Scanning for script callbacks ...
+12:36:34.313 [main] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+12:36:34.322 [main] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+12:36:34.325 [main] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__remove_station_charger_count.sql (filename: V4__remove_station_charger_count.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__shipment_event_timeline_index.sql (filename: V2__shipment_event_timeline_index.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__agent_current_station.sql (filename: V3__agent_current_station.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__remove_station_charger_count.sql (filename: V4__remove_station_charger_count.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__shipment_event_timeline_index.sql (filename: V2__shipment_event_timeline_index.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+12:36:34.341 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__agent_current_station.sql (filename: V3__agent_current_station.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__remove_station_charger_count.sql (filename: V4__remove_station_charger_count.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__shipment_event_timeline_index.sql (filename: V2__shipment_event_timeline_index.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__agent_current_station.sql (filename: V3__agent_current_station.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__remove_station_charger_count.sql (filename: V4__remove_station_charger_count.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__shipment_event_timeline_index.sql (filename: V2__shipment_event_timeline_index.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+12:36:34.342 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__agent_current_station.sql (filename: V3__agent_current_station.sql)
+12:36:34.347 [main] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+12:36:34.351 [main] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.028s)
+12:36:34.354 [main] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+12:36:34.361 [main] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+12:36:34.364 [main] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+12:36:34.374 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+12:36:34.375 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+12:36:34.375 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+12:36:34.381 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.381 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+12:36:34.385 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.385 [main] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+12:36:34.391 [main] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+12:36:34.397 [main] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+12:36:34.398 [main] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__initial_registry.sql ...
+12:36:34.401 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS users (
+    id VARCHAR(64) PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    role VARCHAR(32) NOT NULL
+)
+12:36:34.403 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: CREATE TABLE IF NOT EXISTS shipments (
+    id VARCHAR(64) PRIMARY KEY,
+    customer_id VARCHAR(64) NOT NULL,
+    sender_name VARCHAR(255) NOT NULL,
+    recipient_name VARCHAR(255) NOT NULL,
+    origin_lat DOUBLE PRECISION NOT NULL,
+    origin_lon DOUBLE PRECISION NOT NULL,
+    origin_alt DOUBLE PRECISION NOT NULL,
+    destination_lat DOUBLE PRECISION NOT NULL,
+    destination_lon DOUBLE PRECISION NOT NULL,
+    destination_alt DOUBLE PRECISION NOT NULL,
+    weight_kg DOUBLE PRECISION NOT NULL,
+    volume_m3 DOUBLE PRECISION NOT NULL,
+    requires_ground_transport BOOLEAN NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    current_station_id VARCHAR(64),
+    carrying_agent_id VARCHAR(64)
+)
+12:36:34.404 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 26: CREATE TABLE IF NOT EXISTS transport_tasks (
+    id VARCHAR(64) PRIMARY KEY,
+    shipment_id VARCHAR(64) NOT NULL REFERENCES shipments(id),
+    start_lat DOUBLE PRECISION NOT NULL,
+    start_lon DOUBLE PRECISION NOT NULL,
+    start_alt DOUBLE PRECISION NOT NULL,
+    end_lat DOUBLE PRECISION NOT NULL,
+    end_lon DOUBLE PRECISION NOT NULL,
+    end_alt DOUBLE PRECISION NOT NULL,
+    start_station_id VARCHAR(64),
+    end_station_id VARCHAR(64),
+    required_agent_type VARCHAR(16),
+    status VARCHAR(32) NOT NULL,
+    assigned_agent_id VARCHAR(64)
+)
+12:36:34.405 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 42: CREATE TABLE IF NOT EXISTS transport_agents (
+    id VARCHAR(64) PRIMARY KEY,
+    type VARCHAR(16) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    energy_level_percent DOUBLE PRECISION NOT NULL,
+    max_range_meters DOUBLE PRECISION NOT NULL,
+    payload_capacity_kg DOUBLE PRECISION NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    active_task_id VARCHAR(64),
+    home_station_id VARCHAR(64)
+)
+12:36:34.406 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 56: CREATE TABLE IF NOT EXISTS transfer_stations (
+    id VARCHAR(64) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    storage_capacity INTEGER NOT NULL,
+    occupied_storage INTEGER NOT NULL,
+    parking_capacity INTEGER NOT NULL,
+    occupied_parking INTEGER NOT NULL,
+    status VARCHAR(32) NOT NULL
+)
+12:36:34.406 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 69: CREATE TABLE IF NOT EXISTS shipment_events (
+    id VARCHAR(64) PRIMARY KEY,
+    shipment_id VARCHAR(64) NOT NULL REFERENCES shipments(id),
+    task_id VARCHAR(64),
+    agent_id VARCHAR(64),
+    station_id VARCHAR(64),
+    type VARCHAR(64) NOT NULL,
+    occurred_at TIMESTAMP NOT NULL,
+    description VARCHAR(1024) NOT NULL
+)
+12:36:34.407 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 80: CREATE INDEX IF NOT EXISTS idx_transport_tasks_status ON transport_tasks(status)
+12:36:34.407 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 81: CREATE INDEX IF NOT EXISTS idx_transport_tasks_assigned_agent ON transport_tasks(assigned_agent_id)
+12:36:34.408 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 82: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment ON shipment_events(shipment_id)
+12:36:34.410 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - initial registry" ...
+12:36:34.412 [main] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - initial registry"
+12:36:34.414 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS users (
+    id VARCHAR(64) PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    role VARCHAR(32) NOT NULL
+)
+12:36:34.416 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.416 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS shipments (
+    id VARCHAR(64) PRIMARY KEY,
+    customer_id VARCHAR(64) NOT NULL,
+    sender_name VARCHAR(255) NOT NULL,
+    recipient_name VARCHAR(255) NOT NULL,
+    origin_lat DOUBLE PRECISION NOT NULL,
+    origin_lon DOUBLE PRECISION NOT NULL,
+    origin_alt DOUBLE PRECISION NOT NULL,
+    destination_lat DOUBLE PRECISION NOT NULL,
+    destination_lon DOUBLE PRECISION NOT NULL,
+    destination_alt DOUBLE PRECISION NOT NULL,
+    weight_kg DOUBLE PRECISION NOT NULL,
+    volume_m3 DOUBLE PRECISION NOT NULL,
+    requires_ground_transport BOOLEAN NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    current_station_id VARCHAR(64),
+    carrying_agent_id VARCHAR(64)
+)
+12:36:34.418 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.418 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS transport_tasks (
+    id VARCHAR(64) PRIMARY KEY,
+    shipment_id VARCHAR(64) NOT NULL REFERENCES shipments(id),
+    start_lat DOUBLE PRECISION NOT NULL,
+    start_lon DOUBLE PRECISION NOT NULL,
+    start_alt DOUBLE PRECISION NOT NULL,
+    end_lat DOUBLE PRECISION NOT NULL,
+    end_lon DOUBLE PRECISION NOT NULL,
+    end_alt DOUBLE PRECISION NOT NULL,
+    start_station_id VARCHAR(64),
+    end_station_id VARCHAR(64),
+    required_agent_type VARCHAR(16),
+    status VARCHAR(32) NOT NULL,
+    assigned_agent_id VARCHAR(64)
+)
+12:36:34.420 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.420 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS transport_agents (
+    id VARCHAR(64) PRIMARY KEY,
+    type VARCHAR(16) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    energy_level_percent DOUBLE PRECISION NOT NULL,
+    max_range_meters DOUBLE PRECISION NOT NULL,
+    payload_capacity_kg DOUBLE PRECISION NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    active_task_id VARCHAR(64),
+    home_station_id VARCHAR(64)
+)
+12:36:34.421 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.421 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS transfer_stations (
+    id VARCHAR(64) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    storage_capacity INTEGER NOT NULL,
+    occupied_storage INTEGER NOT NULL,
+    parking_capacity INTEGER NOT NULL,
+    occupied_parking INTEGER NOT NULL,
+    status VARCHAR(32) NOT NULL
+)
+12:36:34.421 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.421 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS shipment_events (
+    id VARCHAR(64) PRIMARY KEY,
+    shipment_id VARCHAR(64) NOT NULL REFERENCES shipments(id),
+    task_id VARCHAR(64),
+    agent_id VARCHAR(64),
+    station_id VARCHAR(64),
+    type VARCHAR(64) NOT NULL,
+    occurred_at TIMESTAMP NOT NULL,
+    description VARCHAR(1024) NOT NULL
+)
+12:36:34.422 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.422 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_transport_tasks_status ON transport_tasks(status)
+12:36:34.424 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.424 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_transport_tasks_assigned_agent ON transport_tasks(assigned_agent_id)
+12:36:34.424 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.424 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment ON shipment_events(shipment_id)
+12:36:34.426 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.426 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - initial registry"
+12:36:34.438 [main] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+12:36:34.439 [main] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+12:36:34.443 [main] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__shipment_event_timeline_index.sql ...
+12:36:34.444 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment_occurred
+    ON shipment_events(shipment_id, occurred_at)
+12:36:34.445 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - shipment event timeline index" ...
+12:36:34.446 [main] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - shipment event timeline index"
+12:36:34.446 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment_occurred
+    ON shipment_events(shipment_id, occurred_at)
+12:36:34.446 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.446 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - shipment event timeline index"
+12:36:34.447 [main] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+12:36:34.448 [main] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+12:36:34.449 [main] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__agent_current_station.sql ...
+12:36:34.450 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: ALTER TABLE transport_agents
+    ADD COLUMN IF NOT EXISTS current_station_id VARCHAR(64)
+12:36:34.450 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: UPDATE transport_agents
+SET current_station_id = home_station_id
+WHERE current_station_id IS NULL
+  AND home_station_id IS NOT NULL
+12:36:34.450 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 9: ALTER TABLE transport_agents
+    DROP COLUMN IF EXISTS home_station_id
+12:36:34.450 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: UPDATE transfer_stations
+SET occupied_parking = (
+    SELECT COUNT(*)
+    FROM transport_agents
+    WHERE transport_agents.current_station_id = transfer_stations.id
+)
+12:36:34.450 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - agent current station" ...
+12:36:34.450 [main] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - agent current station"
+12:36:34.452 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: ALTER TABLE transport_agents
+    ADD COLUMN IF NOT EXISTS current_station_id VARCHAR(64)
+12:36:34.456 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.456 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: UPDATE transport_agents
+SET current_station_id = home_station_id
+WHERE current_station_id IS NULL
+  AND home_station_id IS NOT NULL
+12:36:34.460 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.460 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: ALTER TABLE transport_agents
+    DROP COLUMN IF EXISTS home_station_id
+12:36:34.464 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.464 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: UPDATE transfer_stations
+SET occupied_parking = (
+    SELECT COUNT(*)
+    FROM transport_agents
+    WHERE transport_agents.current_station_id = transfer_stations.id
+)
+12:36:34.465 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.465 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - agent current station"
+12:36:34.466 [main] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+12:36:34.467 [main] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+12:36:34.467 [main] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__remove_station_charger_count.sql ...
+12:36:34.469 [main] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: ALTER TABLE transfer_stations DROP COLUMN IF EXISTS charger_count
+12:36:34.469 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - remove station charger count" ...
+12:36:34.469 [main] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - remove station charger count"
+12:36:34.469 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: ALTER TABLE transfer_stations DROP COLUMN IF EXISTS charger_count
+12:36:34.470 [main] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+12:36:34.470 [main] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - remove station charger count"
+12:36:34.470 [main] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+12:36:34.471 [main] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+12:36:34.476 [main] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.030s)
+12:36:34.478 [main] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 20 of 56M
+12:36:41.710 [main] DEBUG Exposed -- SELECT SETTING_VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE SETTING_NAME = 'MODE'
+12:36:41.716 [main] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:36:41.720 [main] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:41.722 [main] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:41.809 [main] INFO ktor.application -- Application started in 8.381 seconds.
+12:36:41.809 [main] INFO ktor.application -- Application started: io.ktor.server.application.Application@2e8a1ab4
+12:36:41.814 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory -- Using SLF4J as the default logging framework
+12:36:41.832 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- -Dio.netty.noUnsafe: false
+12:36:41.832 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- Java version: 21
+12:36:41.833 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.theUnsafe: available
+12:36:41.834 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe base methods: all available
+12:36:41.835 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.storeFence: available
+12:36:41.835 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Buffer.address: available
+12:36:41.835 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+12:36:41.836 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Bits.unaligned: available, true
+12:36:41.836 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @659a969b
+12:36:41.837 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+12:36:41.837 [main] DEBUG io.netty.util.internal.PlatformDependent -- sun.misc.Unsafe: available
+12:36:41.837 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.tmpdir: C:\Users\Szymon\AppData\Local\Temp (java.io.tmpdir)
+12:36:41.837 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:36:41.838 [main] DEBUG io.netty.util.internal.PlatformDependent -- Platform: Windows
+12:36:41.838 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.maxDirectMemory: -1 bytes
+12:36:41.838 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+12:36:41.839 [main] DEBUG io.netty.util.internal.CleanerJava9 -- java.nio.ByteBuffer.cleaner(): available
+12:36:41.839 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.noPreferDirect: false
+12:36:41.897 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup -- -Dio.netty.eventLoopThreads: 32
+12:36:41.902 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor -- -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+12:36:41.904 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+12:36:41.905 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+12:36:41.908 [main] DEBUG io.netty.channel.nio.NioEventLoop -- -Dio.netty.noKeySetOptimization: false
+12:36:41.908 [main] DEBUG io.netty.channel.nio.NioEventLoop -- -Dio.netty.selectorAutoRebuildThreshold: 512
+12:36:41.914 [main] DEBUG io.netty.util.internal.PlatformDependent -- org.jctools-core.MpscChunkedArrayQueue: available
+12:36:41.956 [main] DEBUG io.netty.channel.DefaultChannelId -- -Dio.netty.processId: 29804 (auto-detected)
+12:36:41.959 [main] DEBUG io.netty.util.NetUtil -- -Djava.net.preferIPv4Stack: false
+12:36:41.959 [main] DEBUG io.netty.util.NetUtil -- -Djava.net.preferIPv6Addresses: false
+12:36:41.960 [main] DEBUG io.netty.util.NetUtilInitializations -- Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+12:36:41.961 [main] DEBUG io.netty.util.NetUtil -- Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+12:36:41.962 [main] DEBUG io.netty.channel.DefaultChannelId -- -Dio.netty.machineId: e8:9c:25:ff:fe:39:c0:2d (auto-detected)
+12:36:41.970 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.level: simple
+12:36:41.970 [main] DEBUG io.netty.util.ResourceLeakDetector -- -Dio.netty.leakDetection.targetRecords: 4
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.numHeapArenas: 32
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.numDirectArenas: 32
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.pageSize: 8192
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxOrder: 9
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.chunkSize: 4194304
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.smallCacheSize: 256
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.normalCacheSize: 64
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.cacheTrimInterval: 8192
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.useCacheForAllThreads: false
+12:36:41.992 [main] DEBUG io.netty.buffer.PooledByteBufAllocator -- -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+12:36:41.999 [main] DEBUG io.netty.buffer.ByteBufUtil -- -Dio.netty.allocator.type: pooled
+12:36:41.999 [main] DEBUG io.netty.buffer.ByteBufUtil -- -Dio.netty.threadLocalDirectBufferSize: 0
+12:36:41.999 [main] DEBUG io.netty.buffer.ByteBufUtil -- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:36:42.000 [main] DEBUG io.netty.bootstrap.ChannelInitializerExtensions -- -Dio.netty.bootstrap.extensions: null
+12:36:42.011 [DefaultDispatcher-worker-2] INFO ktor.application -- Responding at http://127.0.0.1:8080
+12:36:42.091 [eventLoopGroupProxy-3-1] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkAccessible: true
+12:36:42.091 [eventLoopGroupProxy-3-1] DEBUG io.netty.buffer.AbstractByteBuf -- -Dio.netty.buffer.checkBounds: true
+12:36:42.092 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory -- Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@40fb981c
+12:36:42.121 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.maxCapacityPerThread: 4096
+12:36:42.121 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.ratio: 8
+12:36:42.121 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.chunkSize: 32
+12:36:42.121 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.blocking: false
+12:36:42.121 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler -- -Dio.netty.recycler.batchFastThreadLocalOnly: true
+12:36:42.178 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:36:42.182 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:36:42.183 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:42.187 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:42.238 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 70ms
+12:36:42.561 [eventLoopGroupProxy-4-3] INFO ktor.application -- 200 OK: GET - /health in 38ms
+12:36:45.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:36:45.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:36:45.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:45.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:45.542 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 4ms
+12:36:49.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:36:49.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:36:49.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:49.545 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:49.546 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 4ms
+12:36:50.688 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations WHERE transfer_stations.id = 'station-transfer'
+12:36:50.696 [eventLoopGroupProxy-4-3] DEBUG Exposed -- INSERT INTO transfer_stations (id, "name", lat, lon, alt, storage_capacity, occupied_storage, parking_capacity, occupied_parking, status) VALUES ('station-transfer', 'Transfer Station', 47.397971, 8.546164, 0.0, 4, 0, 2, 0, 'PREPARING')
+12:36:50.698 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations WHERE transfer_stations.id = 'station-transfer'
+12:36:51.269 [eventLoopGroupProxy-4-3] INFO ktor.application -- 201 Created: POST - /api/stations in 630ms
+12:36:51.284 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations WHERE transfer_stations.id = 'station-transfer'
+12:36:51.287 [eventLoopGroupProxy-4-3] DEBUG Exposed -- UPDATE transfer_stations SET status='ACTIVE', occupied_storage=0, occupied_parking=0 WHERE transfer_stations.id = 'station-transfer'
+12:36:51.287 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations WHERE transfer_stations.id = 'station-transfer'
+12:36:51.288 [eventLoopGroupProxy-4-3] INFO ktor.application -- 200 OK: POST - /api/stations/station-transfer/activate in 7ms
+12:36:51.294 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-1'
+12:36:51.297 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations WHERE transfer_stations.id = 'station-transfer'
+12:36:51.297 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:51.304 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-1'
+12:36:51.306 [eventLoopGroupProxy-4-3] DEBUG Exposed -- INSERT INTO transport_agents (id, "type", lat, lon, alt, energy_level_percent, max_range_meters, payload_capacity_kg, status, active_task_id, current_station_id) VALUES ('uav-scenario-1', 'UAV', 47.397971, 8.546087606386811, 0.0, 100.0, 650.0, 5.0, 'PENDING_ACTIVATION', NULL, 'station-transfer')
+12:36:51.307 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:51.307 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:51.309 [eventLoopGroupProxy-4-3] DEBUG Exposed -- UPDATE transfer_stations SET occupied_parking=1 WHERE transfer_stations.id = 'station-transfer'
+12:36:51.309 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-1'
+Started runtime for agent uav-scenario-1; log: C:\Users\Szymon\Documents\Magisterka\Projekt\build\runtime\uav-scenario-1.log
+12:36:51.318 [eventLoopGroupProxy-4-3] INFO ktor.application -- 201 Created: POST - /api/agents in 29ms
+12:36:51.322 [eventLoopGroupProxy-4-3] DEBUG Exposed -- UPDATE transport_agents SET status='AVAILABLE' WHERE transport_agents.id = 'uav-scenario-1'
+12:36:51.323 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-1'
+12:36:51.324 [eventLoopGroupProxy-4-3] INFO ktor.application -- 200 OK: POST - /api/agents/uav-scenario-1/activate in 5ms
+12:36:51.329 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-2'
+12:36:51.331 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations WHERE transfer_stations.id = 'station-transfer'
+12:36:51.332 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:51.334 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-2'
+12:36:51.334 [eventLoopGroupProxy-4-3] DEBUG Exposed -- INSERT INTO transport_agents (id, "type", lat, lon, alt, energy_level_percent, max_range_meters, payload_capacity_kg, status, active_task_id, current_station_id) VALUES ('uav-scenario-2', 'UAV', 47.397971, 8.546116835247508, 0.0, 100.0, 650.0, 5.0, 'PENDING_ACTIVATION', NULL, 'station-transfer')
+12:36:51.335 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:51.335 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:51.335 [eventLoopGroupProxy-4-3] DEBUG Exposed -- UPDATE transfer_stations SET occupied_parking=2 WHERE transfer_stations.id = 'station-transfer'
+12:36:51.336 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-2'
+Started runtime for agent uav-scenario-2; log: C:\Users\Szymon\Documents\Magisterka\Projekt\build\runtime\uav-scenario-2.log
+12:36:51.341 [eventLoopGroupProxy-4-3] INFO ktor.application -- 201 Created: POST - /api/agents in 15ms
+12:36:51.346 [eventLoopGroupProxy-4-3] DEBUG Exposed -- UPDATE transport_agents SET status='AVAILABLE' WHERE transport_agents.id = 'uav-scenario-2'
+12:36:51.347 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents WHERE transport_agents.id = 'uav-scenario-2'
+12:36:51.348 [eventLoopGroupProxy-4-3] INFO ktor.application -- 200 OK: POST - /api/agents/uav-scenario-2/activate in 5ms
+12:36:51.359 [eventLoopGroupProxy-4-3] DEBUG Exposed -- INSERT INTO shipments (id, customer_id, sender_name, recipient_name, origin_lat, origin_lon, origin_alt, destination_lat, destination_lon, destination_alt, weight_kg, volume_m3, requires_ground_transport, status, current_station_id, carrying_agent_id) VALUES ('937107b5-336e-4c0d-8edf-012bf43c7206', 'scenario1-client', 'Scenario1 Sender', 'Scenario1 Recipient', 47.397971, 8.5435, 0.0, 47.397971, 8.548828, 0.0, 2.0, 0.02, FALSE, 'WAITING', NULL, NULL)
+12:36:51.363 [eventLoopGroupProxy-4-3] DEBUG Exposed -- INSERT INTO transport_tasks (id, shipment_id, start_lat, start_lon, start_alt, end_lat, end_lon, end_alt, start_station_id, end_station_id, required_agent_type, status, assigned_agent_id) VALUES ('ecaba9b6-dc53-4e8b-97e6-88e497c38767', '937107b5-336e-4c0d-8edf-012bf43c7206', 47.397971, 8.5435, 0.0, 47.397971, 8.548828, 0.0, NULL, NULL, NULL, 'AVAILABLE', NULL)
+12:36:51.378 [eventLoopGroupProxy-4-3] DEBUG Exposed -- INSERT INTO shipment_events (id, shipment_id, task_id, agent_id, station_id, "type", occurred_at, description) VALUES ('587a58c8-b308-4261-83bb-c99b67a9c9e3', '937107b5-336e-4c0d-8edf-012bf43c7206', 'ecaba9b6-dc53-4e8b-97e6-88e497c38767', NULL, NULL, 'SHIPMENT_CREATED', '2026-06-03T12:36:51.372697', 'Shipment created and initial transport task exposed.')
+12:36:51.381 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments WHERE shipments.id = '937107b5-336e-4c0d-8edf-012bf43c7206'
+12:36:51.384 [eventLoopGroupProxy-4-3] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks WHERE transport_tasks.id = 'ecaba9b6-dc53-4e8b-97e6-88e497c38767'
+12:36:51.987 [eventLoopGroupProxy-4-3] INFO ktor.application -- 201 Created: POST - /api/shipments in 637ms
+12:36:52.093 [eventLoopGroupProxy-3-3] DEBUG ktor.application -- I/O operation failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+12:36:53.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:36:53.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:36:53.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:53.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:53.557 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 5ms
+12:36:57.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:36:57.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:36:57.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:36:57.545 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:36:57.546 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 4ms
+12:37:01.037 [eventLoopGroupProxy-4-4] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:01.038 [eventLoopGroupProxy-4-4] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:01.038 [eventLoopGroupProxy-4-4] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:01.039 [eventLoopGroupProxy-4-4] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:01.040 [eventLoopGroupProxy-4-4] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:37:01.552 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:01.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:01.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:01.556 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:01.557 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 7ms
+12:37:04.009 [eventLoopGroupProxy-3-4] DEBUG ktor.application -- I/O operation failed
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+12:37:05.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:05.549 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:05.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:05.551 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:05.553 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 12ms
+12:37:09.549 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:09.551 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:09.551 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:09.553 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:09.554 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 8ms
+12:37:13.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:13.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:13.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:13.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:13.544 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:37:17.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:17.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:17.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:17.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:17.544 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:37:21.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:21.552 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:21.552 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:21.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:21.556 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 9ms
+12:37:25.545 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:25.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:25.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:25.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:25.547 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 4ms
+12:37:29.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:29.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:29.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:29.556 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:29.560 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 9ms
+12:37:33.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:33.556 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:33.557 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:33.558 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:33.560 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 8ms
+12:37:37.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:37.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:37.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:37.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:37.547 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 7ms
+12:37:41.557 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:41.559 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:41.559 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:41.560 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:41.562 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 9ms
+12:37:45.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:45.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:45.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:45.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:45.544 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:37:49.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:49.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:49.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:49.545 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:49.546 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 5ms
+12:37:53.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:53.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:53.549 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:53.549 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:53.552 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 8ms
+12:37:57.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:37:57.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:37:57.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:37:57.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:37:57.545 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 5ms
+12:38:01.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:01.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:01.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:01.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:01.544 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:38:05.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:05.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:05.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:05.544 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:05.546 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 7ms
+12:38:09.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:09.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:09.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:09.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:09.550 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:38:13.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:13.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:13.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:13.543 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:13.544 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 5ms
+12:38:17.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:17.549 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:17.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:17.551 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:17.554 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 9ms
+12:38:21.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:21.556 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:21.557 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:21.558 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:21.560 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 8ms
+12:38:25.551 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:25.552 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:25.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:25.554 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:25.556 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 8ms
+12:38:29.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:29.549 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:29.551 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:29.552 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:29.554 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 9ms
+12:38:33.552 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:33.553 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:33.555 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:33.556 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:33.557 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:38:37.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:37.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:37.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:37.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:37.548 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 3ms
+12:38:41.541 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:41.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:41.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:41.542 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:41.543 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 4ms
+12:38:45.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:45.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:45.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:45.550 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:45.552 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 4ms
+12:38:49.560 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:49.561 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:49.561 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:49.562 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:49.563 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 6ms
+12:38:53.538 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:53.539 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:53.539 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:53.539 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:53.540 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 3ms
+12:38:57.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:38:57.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:38:57.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:38:57.548 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:38:57.549 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 5ms
+12:39:01.546 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:39:01.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:39:01.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:39:01.547 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:39:01.548 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 3ms
+12:39:05.539 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+12:39:05.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_tasks.id, transport_tasks.shipment_id, transport_tasks.start_lat, transport_tasks.start_lon, transport_tasks.start_alt, transport_tasks.end_lat, transport_tasks.end_lon, transport_tasks.end_alt, transport_tasks.start_station_id, transport_tasks.end_station_id, transport_tasks.required_agent_type, transport_tasks.status, transport_tasks.assigned_agent_id FROM transport_tasks
+12:39:05.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.active_task_id, transport_agents.current_station_id FROM transport_agents
+12:39:05.540 [eventLoopGroupProxy-4-1] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+12:39:05.541 [eventLoopGroupProxy-4-1] INFO ktor.application -- 200 OK: GET - /api/network/state in 3ms
+
+> Task :backend:run FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+5 actionable tasks: 4 executed, 1 up-to-date

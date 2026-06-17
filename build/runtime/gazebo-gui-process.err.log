@@ -1,0 +1,2 @@
+Docker CLI is not available inside Ubuntu WSL.
+Enable Docker Desktop -> Settings -> Resources -> WSL integration for Ubuntu-24.04, then retry Open Gazebo GUI.

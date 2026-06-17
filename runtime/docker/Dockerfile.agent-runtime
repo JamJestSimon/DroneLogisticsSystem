@@ -1,0 +1,68 @@
+FROM ubuntu:24.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PX4_HOME=/opt/PX4-Autopilot
+ENV PROJECT_ROOT=/workspace
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    git \
+    gnupg \
+    lsb-release \
+    openjdk-21-jdk \
+    python3 \
+    python3-pip \
+    python3-venv \
+    make \
+    cmake \
+    build-essential \
+    ccache \
+    ninja-build \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN curl https://packages.osrfoundation.org/gazebo.gpg \
+    --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg \
+    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] https://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" \
+    > /etc/apt/sources.list.d/gazebo-stable.list \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends \
+        fluxbox \
+        gz-jetty \
+        libopencv-dev \
+        novnc \
+        websockify \
+        wmctrl \
+        x11vnc \
+        xvfb \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /opt
+RUN git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+RUN cd "$PX4_HOME" \
+    && python3 -m venv .px4-venv \
+    && . .px4-venv/bin/activate \
+    && pip install --upgrade pip wheel setuptools \
+    && pip install -r Tools/setup/requirements.txt
+RUN cd "$PX4_HOME" \
+    && . .px4-venv/bin/activate \
+    && make px4_sitl_default
+
+ARG MAVSDK_VERSION=3.17.1
+RUN curl -fsSL \
+    "https://github.com/mavlink/MAVSDK/releases/download/v${MAVSDK_VERSION}/mavsdk_server_musl_x86_64" \
+    -o /usr/local/bin/mavsdk_server \
+    && chmod +x /usr/local/bin/mavsdk_server
+
+WORKDIR /workspace
+COPY . /workspace
+RUN test -f /workspace/gradlew \
+    && test -f /workspace/runtime/docker/start-agent-runtime.sh \
+    && test -f /workspace/runtime/docker/start-gazebo-sim.sh \
+    && test -f /workspace/runtime/docker/start-gazebo-gui.sh \
+    && test -f /workspace/runtime/docker/gazebo-sim.sh \
+    && sed -i 's/\r$//' /workspace/gradlew /workspace/runtime/docker/*.sh \
+    && chmod +x /workspace/gradlew /workspace/runtime/docker/*.sh /workspace/runtime/docker/prepare-x500-cargo-models.sh \
+    && sh ./gradlew --version
+
+ENTRYPOINT ["/workspace/runtime/docker/start-agent-runtime.sh"]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.backend.RebalanceTaskServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-17T13:20:29" hostname="JAMJESTPC" time="1.984">
+  <properties/>
+  <testcase name="complete rebalance requires confirmed parking occupancy not open reservation()" classname="pl.edu.wat.uavlogistics.backend.RebalanceTaskServiceTest" time="0.995"/>
+  <testcase name="ensure rebalance task is idempotent and claim is atomic()" classname="pl.edu.wat.uavlogistics.backend.RebalanceTaskServiceTest" time="0.502"/>
+  <testcase name="complete rebalance rejects hub proximity without parking pad dock()" classname="pl.edu.wat.uavlogistics.backend.RebalanceTaskServiceTest" time="0.478"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

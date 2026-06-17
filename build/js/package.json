@@ -1,0 +1,16 @@
+{
+  "name": "uav-logistics-system",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages\\uav-logistics-system-frontend",
+    "packages\\uav-logistics-system-frontend-test",
+    "packages_imported\\kotlin-test-js-runner\\0.0.2"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}

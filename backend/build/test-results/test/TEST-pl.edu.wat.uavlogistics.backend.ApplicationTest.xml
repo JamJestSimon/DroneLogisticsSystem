@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.backend.ApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-17T13:20:27" hostname="JAMJESTPC" time="1.939">
+  <properties/>
+  <testcase name="health route responds successfully()" classname="pl.edu.wat.uavlogistics.backend.ApplicationTest" time="1.939"/>
+  <system-out><![CDATA[15:20:27.606 [DefaultDispatcher-worker-1 @call-context#2] INFO ktor.test -- No ktor.deployment.watch patterns specified, automatic reload is not active.
+15:20:27.928 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+15:20:27.928 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e ...
+15:20:27.928 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+15:20:27.928 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+15:20:27.929 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e ...
+15:20:27.929 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: file:/C:/Users/Szymon/Documents/Magisterka/Projekt/backend/build/resources/main/db/migration
+15:20:27.931 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.FileSystemClassPathLocationScanner -- Scanning starting at classpath root in filesystem: C:\Users\Szymon\Documents\Magisterka\Projekt\backend\build\resources\main\
+15:20:27.931 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.FileSystemClassPathLocationScanner -- Scanning for resources in path: C:\Users\Szymon\Documents\Magisterka\Projekt\backend\build\resources\main\db\migration (db/migration)
+15:20:27.935 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__initial_registry.sql
+15:20:27.936 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+15:20:28.184 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__initial_registry.sql
+15:20:28.233 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:mem:uav_547489776132300 (H2 2.3)
+15:20:28.233 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.FlywayExecutor -- Database Type: H2
+15:20:28.234 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.3.232 (2024-08-11)
+15:20:28.234 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+15:20:28.236 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+15:20:28.236 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+15:20:28.248 [DefaultDispatcher-worker-1 @call-context#2] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+15:20:28.249 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.FlywayExecutor -- Scanning for script callbacks ...
+15:20:28.252 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+15:20:28.270 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+15:20:28.274 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+15:20:28.286 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+15:20:28.286 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+15:20:28.288 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+15:20:28.288 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__initial_registry.sql (filename: V1__initial_registry.sql)
+15:20:28.294 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+15:20:28.298 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 1 migration (execution time 00:00.027s)
+15:20:28.303 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+15:20:28.314 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+15:20:28.320 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+15:20:28.334 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+15:20:28.336 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+15:20:28.337 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+15:20:28.350 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.351 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+15:20:28.353 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.353 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+15:20:28.360 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+15:20:28.370 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+15:20:28.371 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__initial_registry.sql ...
+15:20:28.376 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS users (
+    id UUID PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    role VARCHAR(32) NOT NULL
+)
+15:20:28.378 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: CREATE TABLE IF NOT EXISTS transfer_stations (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    storage_capacity INTEGER NOT NULL,
+    occupied_storage INTEGER NOT NULL,
+    parking_capacity INTEGER NOT NULL,
+    occupied_parking INTEGER NOT NULL,
+    status VARCHAR(32) NOT NULL
+)
+15:20:28.379 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 20: CREATE TABLE IF NOT EXISTS transport_agents (
+    id UUID PRIMARY KEY,
+    type VARCHAR(16) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    energy_level_percent DOUBLE PRECISION NOT NULL,
+    max_range_meters DOUBLE PRECISION NOT NULL,
+    payload_capacity_kg DOUBLE PRECISION NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    current_station_id UUID
+)
+15:20:28.384 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 33: CREATE TABLE IF NOT EXISTS shipments (
+    id UUID PRIMARY KEY,
+    customer_id UUID NOT NULL,
+    sender_name VARCHAR(255) NOT NULL,
+    recipient_name VARCHAR(255) NOT NULL,
+    origin_lat DOUBLE PRECISION NOT NULL,
+    origin_lon DOUBLE PRECISION NOT NULL,
+    origin_alt DOUBLE PRECISION NOT NULL,
+    destination_lat DOUBLE PRECISION NOT NULL,
+    destination_lon DOUBLE PRECISION NOT NULL,
+    destination_alt DOUBLE PRECISION NOT NULL,
+    weight_kg DOUBLE PRECISION NOT NULL,
+    volume_m3 DOUBLE PRECISION NOT NULL,
+    requires_ground_transport BOOLEAN NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    current_station_id UUID,
+    carrying_agent_id UUID
+)
+15:20:28.387 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 52: CREATE TABLE IF NOT EXISTS transport_tasks (
+    id UUID PRIMARY KEY,
+    shipment_id UUID NOT NULL REFERENCES shipments(id),
+    start_lat DOUBLE PRECISION NOT NULL,
+    start_lon DOUBLE PRECISION NOT NULL,
+    start_alt DOUBLE PRECISION NOT NULL,
+    end_lat DOUBLE PRECISION NOT NULL,
+    end_lon DOUBLE PRECISION NOT NULL,
+    end_alt DOUBLE PRECISION NOT NULL,
+    start_station_id UUID,
+    end_station_id UUID,
+    kind VARCHAR(32) NOT NULL DEFAULT 'PACKAGE',
+    status VARCHAR(32) NOT NULL,
+    assigned_agent_id UUID
+)
+15:20:28.388 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 68: CREATE TABLE IF NOT EXISTS shipment_events (
+    id UUID PRIMARY KEY,
+    shipment_id UUID NOT NULL REFERENCES shipments(id),
+    task_id UUID,
+    agent_id UUID,
+    station_id UUID,
+    type VARCHAR(64) NOT NULL,
+    occurred_at TIMESTAMP NOT NULL,
+    description VARCHAR(1024) NOT NULL
+)
+15:20:28.389 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 79: CREATE TABLE IF NOT EXISTS parking_slot_reservations (
+    agent_id UUID PRIMARY KEY,
+    station_id UUID NOT NULL REFERENCES transfer_stations(id),
+    slot_index INTEGER NOT NULL,
+    ephemeral BOOLEAN NOT NULL DEFAULT FALSE,
+    expects_vacate_by UUID
+)
+15:20:28.390 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 87: CREATE INDEX IF NOT EXISTS idx_transport_tasks_status ON transport_tasks(status)
+15:20:28.390 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 88: CREATE INDEX IF NOT EXISTS idx_transport_tasks_assigned_agent ON transport_tasks(assigned_agent_id)
+15:20:28.390 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 89: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment ON shipment_events(shipment_id)
+15:20:28.390 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 90: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment_occurred ON shipment_events(shipment_id, occurred_at)
+15:20:28.393 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 91: CREATE UNIQUE INDEX IF NOT EXISTS uq_parking_slot_station_slot_index
+    ON parking_slot_reservations (station_id, slot_index)
+15:20:28.398 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - initial registry" ...
+15:20:28.399 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - initial registry"
+15:20:28.400 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS users (
+    id UUID PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    role VARCHAR(32) NOT NULL
+)
+15:20:28.404 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.404 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS transfer_stations (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    storage_capacity INTEGER NOT NULL,
+    occupied_storage INTEGER NOT NULL,
+    parking_capacity INTEGER NOT NULL,
+    occupied_parking INTEGER NOT NULL,
+    status VARCHAR(32) NOT NULL
+)
+15:20:28.406 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.407 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS transport_agents (
+    id UUID PRIMARY KEY,
+    type VARCHAR(16) NOT NULL,
+    lat DOUBLE PRECISION NOT NULL,
+    lon DOUBLE PRECISION NOT NULL,
+    alt DOUBLE PRECISION NOT NULL,
+    energy_level_percent DOUBLE PRECISION NOT NULL,
+    max_range_meters DOUBLE PRECISION NOT NULL,
+    payload_capacity_kg DOUBLE PRECISION NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    current_station_id UUID
+)
+15:20:28.409 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.409 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS shipments (
+    id UUID PRIMARY KEY,
+    customer_id UUID NOT NULL,
+    sender_name VARCHAR(255) NOT NULL,
+    recipient_name VARCHAR(255) NOT NULL,
+    origin_lat DOUBLE PRECISION NOT NULL,
+    origin_lon DOUBLE PRECISION NOT NULL,
+    origin_alt DOUBLE PRECISION NOT NULL,
+    destination_lat DOUBLE PRECISION NOT NULL,
+    destination_lon DOUBLE PRECISION NOT NULL,
+    destination_alt DOUBLE PRECISION NOT NULL,
+    weight_kg DOUBLE PRECISION NOT NULL,
+    volume_m3 DOUBLE PRECISION NOT NULL,
+    requires_ground_transport BOOLEAN NOT NULL,
+    status VARCHAR(32) NOT NULL,
+    current_station_id UUID,
+    carrying_agent_id UUID
+)
+15:20:28.410 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.411 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS transport_tasks (
+    id UUID PRIMARY KEY,
+    shipment_id UUID NOT NULL REFERENCES shipments(id),
+    start_lat DOUBLE PRECISION NOT NULL,
+    start_lon DOUBLE PRECISION NOT NULL,
+    start_alt DOUBLE PRECISION NOT NULL,
+    end_lat DOUBLE PRECISION NOT NULL,
+    end_lon DOUBLE PRECISION NOT NULL,
+    end_alt DOUBLE PRECISION NOT NULL,
+    start_station_id UUID,
+    end_station_id UUID,
+    kind VARCHAR(32) NOT NULL DEFAULT 'PACKAGE',
+    status VARCHAR(32) NOT NULL,
+    assigned_agent_id UUID
+)
+15:20:28.418 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.418 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS shipment_events (
+    id UUID PRIMARY KEY,
+    shipment_id UUID NOT NULL REFERENCES shipments(id),
+    task_id UUID,
+    agent_id UUID,
+    station_id UUID,
+    type VARCHAR(64) NOT NULL,
+    occurred_at TIMESTAMP NOT NULL,
+    description VARCHAR(1024) NOT NULL
+)
+15:20:28.421 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.421 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS parking_slot_reservations (
+    agent_id UUID PRIMARY KEY,
+    station_id UUID NOT NULL REFERENCES transfer_stations(id),
+    slot_index INTEGER NOT NULL,
+    ephemeral BOOLEAN NOT NULL DEFAULT FALSE,
+    expects_vacate_by UUID
+)
+15:20:28.423 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.424 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_transport_tasks_status ON transport_tasks(status)
+15:20:28.425 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.425 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_transport_tasks_assigned_agent ON transport_tasks(assigned_agent_id)
+15:20:28.427 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.427 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment ON shipment_events(shipment_id)
+15:20:28.428 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.428 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX IF NOT EXISTS idx_shipment_events_shipment_occurred ON shipment_events(shipment_id, occurred_at)
+15:20:28.429 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.429 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE UNIQUE INDEX IF NOT EXISTS uq_parking_slot_station_slot_index
+    ON parking_slot_reservations (station_id, slot_index)
+15:20:28.430 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+15:20:28.430 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - initial registry"
+15:20:28.435 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+15:20:28.437 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.api.configuration.ClassicConfiguration -- CherryPickConfigurationExtension not found
+15:20:28.448 [DefaultDispatcher-worker-1 @call-context#2] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 1 migration to schema "PUBLIC", now at version v1 (execution time 00:00.032s)
+15:20:28.450 [DefaultDispatcher-worker-1 @call-context#2] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 13 of 37M
+Frontend dev server already appears to be running at 127.0.0.1:8081.
+15:20:28.569 [DefaultDispatcher-worker-1 @call-context#2] DEBUG Exposed -- SELECT SETTING_VALUE FROM INFORMATION_SCHEMA.SETTINGS WHERE SETTING_NAME = 'MODE'
+15:20:28.580 [DefaultDispatcher-worker-1 @call-context#2] DEBUG Exposed -- SELECT shipments.id, shipments.customer_id, shipments.sender_name, shipments.recipient_name, shipments.origin_lat, shipments.origin_lon, shipments.origin_alt, shipments.destination_lat, shipments.destination_lon, shipments.destination_alt, shipments.weight_kg, shipments.volume_m3, shipments.requires_ground_transport, shipments.status, shipments.current_station_id, shipments.carrying_agent_id FROM shipments
+15:20:28.585 [DefaultDispatcher-worker-1 @call-context#2] DEBUG Exposed -- SELECT transfer_stations.id, transfer_stations."name", transfer_stations.lat, transfer_stations.lon, transfer_stations.alt, transfer_stations.storage_capacity, transfer_stations.occupied_storage, transfer_stations.parking_capacity, transfer_stations.occupied_parking, transfer_stations.status FROM transfer_stations
+15:20:28.588 [DefaultDispatcher-worker-1 @call-context#2] DEBUG Exposed -- SELECT transport_agents.id, transport_agents."type", transport_agents.lat, transport_agents.lon, transport_agents.alt, transport_agents.energy_level_percent, transport_agents.max_range_meters, transport_agents.payload_capacity_kg, transport_agents.status, transport_agents.current_station_id FROM transport_agents
+15:20:28.714 [DefaultDispatcher-worker-1 @call-context#2] INFO ktor.test -- Application started in 1.12 seconds.
+15:20:28.715 [DefaultDispatcher-worker-1 @call-context#2] INFO ktor.test -- Application started: io.ktor.server.application.Application@21a6d847
+15:20:28.719 [DefaultDispatcher-worker-3 @coroutine#4] INFO ktor.test -- Responding at http://localhost:80
+15:20:28.719 [DefaultDispatcher-worker-3 @coroutine#4] INFO ktor.test -- Responding at https://localhost:443
+]]></system-out>
+  <system-err><![CDATA[SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
+]]></system-err>
+</testsuite>

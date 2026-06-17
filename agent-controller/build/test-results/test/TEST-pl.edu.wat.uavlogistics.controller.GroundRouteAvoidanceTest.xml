@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.controller.GroundRouteAvoidanceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-17T10:21:10" hostname="JAMJESTPC" time="0.047">
+  <properties/>
+  <testcase name="path with no obstacles is direct()" classname="pl.edu.wat.uavlogistics.controller.GroundRouteAvoidanceTest" time="0.034"/>
+  <testcase name="path inserts detour around obstacle on segment()" classname="pl.edu.wat.uavlogistics.controller.GroundRouteAvoidanceTest" time="0.004"/>
+  <testcase name="fromAgents can include docked uav and ugv obstacles()" classname="pl.edu.wat.uavlogistics.controller.GroundRouteAvoidanceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

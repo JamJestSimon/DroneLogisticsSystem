@@ -1,0 +1,407 @@
+2026-06-05 13:31:44 NETWORK: shipment: d8f8c3d3…=WAITING station= carrier= | tasks: 52da5e40…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:31:44 DRONES: x500* (none)
+2026-06-05 13:31:44 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:31:44 CARGO: cargo* (none)
+2026-06-05 13:31:44 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:31:44 NETWORK: shipment: d8f8c3d3…=WAITING station= carrier= | tasks: 52da5e40…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:31:44 DRONES: x500* (none)
+2026-06-05 13:31:44 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:31:44 CARGO: cargo* (none)
+2026-06-05 13:31:44 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:31:53 NETWORK: network state unavailable: Unable to connect to the remote server
+2026-06-05 13:31:53 DRONES: x500* (none)
+2026-06-05 13:31:53 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:31:53 CARGO: cargo* (none)
+2026-06-05 13:31:53 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:31:53 NETWORK: network state unavailable: Unable to connect to the remote server
+2026-06-05 13:31:54 DRONES: x500* (none)
+2026-06-05 13:31:54 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:31:54 CARGO: cargo* (none)
+2026-06-05 13:31:54 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:31:57 Failed to poll shipment status: Unable to connect to the remote server
+2026-06-05 13:31:58 Failed to poll shipment status: Unable to connect to the remote server
+2026-06-05 13:32:09 NETWORK: network state unavailable: Unable to connect to the remote server
+2026-06-05 13:32:09 DRONES: x500* (none)
+2026-06-05 13:32:09 PACKAGES: package* (none)
+2026-06-05 13:32:09 CARGO: cargo* (none)
+2026-06-05 13:32:09 STATIONS: station* (none)
+2026-06-05 13:32:09 PACKAGES: package* (none)
+2026-06-05 13:32:09 CARGO: cargo* (none)
+2026-06-05 13:32:09 STATIONS: station* (none)
+2026-06-05 13:32:13 Failed to poll shipment status: Unable to connect to the remote server
+2026-06-05 13:35:15 DRONES: x500* (none)
+2026-06-05 13:35:15 PACKAGES: package* (none)
+2026-06-05 13:35:15 CARGO: cargo* (none)
+2026-06-05 13:35:15 STATIONS: station* (none)
+2026-06-05 13:35:20 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:20 DRONES: x500* (none)
+2026-06-05 13:35:20 PACKAGES: package* (none)
+2026-06-05 13:35:20 CARGO: cargo* (none)
+2026-06-05 13:35:20 STATIONS: station* (none)
+2026-06-05 13:35:26 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:26 DRONES: x500* (none)
+2026-06-05 13:35:26 PACKAGES: package* (none)
+2026-06-05 13:35:26 CARGO: cargo* (none)
+2026-06-05 13:35:26 STATIONS: station* (none)
+2026-06-05 13:35:31 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:31 DRONES: x500* (none)
+2026-06-05 13:35:31 PACKAGES: package* (none)
+2026-06-05 13:35:31 CARGO: cargo* (none)
+2026-06-05 13:35:31 STATIONS: station* (none)
+2026-06-05 13:35:37 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:37 DRONES: x500* (none)
+2026-06-05 13:35:37 PACKAGES: package* (none)
+2026-06-05 13:35:37 CARGO: cargo* (none)
+2026-06-05 13:35:37 STATIONS: station* (none)
+2026-06-05 13:35:42 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:42 DRONES: x500* (none)
+2026-06-05 13:35:42 PACKAGES: package* (none)
+2026-06-05 13:35:42 CARGO: cargo* (none)
+2026-06-05 13:35:42 STATIONS: station* (none)
+2026-06-05 13:35:48 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:48 DRONES: x500* (none)
+2026-06-05 13:35:48 PACKAGES: package* (none)
+2026-06-05 13:35:48 CARGO: cargo* (none)
+2026-06-05 13:35:48 STATIONS: station* (none)
+2026-06-05 13:35:53 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:53 DRONES: x500* (none)
+2026-06-05 13:35:53 PACKAGES: package* (none)
+2026-06-05 13:35:53 CARGO: cargo* (none)
+2026-06-05 13:35:53 STATIONS: station* (none)
+2026-06-05 13:35:59 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:35:59 DRONES: x500* (none)
+2026-06-05 13:35:59 PACKAGES: package* (none)
+2026-06-05 13:35:59 CARGO: cargo* (none)
+2026-06-05 13:35:59 STATIONS: station* (none)
+2026-06-05 13:36:04 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:36:04 DRONES: x500* (none)
+2026-06-05 13:36:04 PACKAGES: package* (none)
+2026-06-05 13:36:04 CARGO: cargo* (none)
+2026-06-05 13:36:04 STATIONS: station* (none)
+2026-06-05 13:36:09 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:36:09 DRONES: x500* (none)
+2026-06-05 13:36:09 PACKAGES: package* (none)
+2026-06-05 13:36:09 CARGO: cargo* (none)
+2026-06-05 13:36:09 STATIONS: station* (none)
+2026-06-05 13:36:15 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:36:15 DRONES: x500* (none)
+2026-06-05 13:36:15 PACKAGES: package* (none)
+2026-06-05 13:36:15 CARGO: cargo* (none)
+2026-06-05 13:36:15 STATIONS: station* (none)
+2026-06-05 13:36:20 NETWORK: shipment: no active shipment | tasks:  | agents: 
+2026-06-05 13:36:20 DRONES: x500* (none)
+2026-06-05 13:36:20 PACKAGES: package* (none)
+2026-06-05 13:36:20 CARGO: cargo* (none)
+2026-06-05 13:36:20 STATIONS: station* (none)
+2026-06-05 13:36:26 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:26 DRONES: x500* (none)
+2026-06-05 13:36:26 PACKAGES: package* (none)
+2026-06-05 13:36:26 CARGO: cargo* (none)
+2026-06-05 13:36:26 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:36:31 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:31 DRONES: x500* (none)
+2026-06-05 13:36:31 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:36:31 CARGO: cargo* (none)
+2026-06-05 13:36:31 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:36:37 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:37 DRONES: x500* (none)
+2026-06-05 13:36:37 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:36:37 CARGO: cargo* (none)
+2026-06-05 13:36:37 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:36:42 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:42 DRONES: x500* (none)
+2026-06-05 13:36:42 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:36:42 CARGO: cargo* (none)
+2026-06-05 13:36:42 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:36:48 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:48 DRONES: x500* (none)
+2026-06-05 13:36:48 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:36:48 CARGO: cargo* (none)
+2026-06-05 13:36:48 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:36:53 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:53 DRONES: x500* (none)
+2026-06-05 13:36:53 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:36:53 CARGO: cargo* (none)
+2026-06-05 13:36:53 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:36:59 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:36:59 DRONES: x500* (none)
+2026-06-05 13:36:59 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:36:59 CARGO: cargo* (none)
+2026-06-05 13:36:59 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:04 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:04 DRONES: x500* (none)
+2026-06-05 13:37:04 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:04 CARGO: cargo* (none)
+2026-06-05 13:37:04 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:10 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:10 DRONES: x500* (none)
+2026-06-05 13:37:10 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:10 CARGO: cargo* (none)
+2026-06-05 13:37:10 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:15 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:15 DRONES: x500* (none)
+2026-06-05 13:37:15 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:15 CARGO: cargo* (none)
+2026-06-05 13:37:15 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:21 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:21 DRONES: x500* (none)
+2026-06-05 13:37:21 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:21 CARGO: cargo* (none)
+2026-06-05 13:37:21 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:27 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:27 DRONES: x500* (none)
+2026-06-05 13:37:27 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:27 CARGO: cargo* (none)
+2026-06-05 13:37:27 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:32 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:32 DRONES: x500* (none)
+2026-06-05 13:37:32 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:32 CARGO: cargo* (none)
+2026-06-05 13:37:32 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:38 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:38 DRONES: x500* (none)
+2026-06-05 13:37:38 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:38 CARGO: cargo* (none)
+2026-06-05 13:37:38 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:43 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:43 DRONES: x500* (none)
+2026-06-05 13:37:43 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:43 CARGO: cargo* (none)
+2026-06-05 13:37:43 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:49 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:49 DRONES: x500* (none)
+2026-06-05 13:37:49 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:49 CARGO: cargo* (none)
+2026-06-05 13:37:49 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:37:54 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:37:54 DRONES: x500* (none)
+2026-06-05 13:37:54 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:37:54 CARGO: cargo* (none)
+2026-06-05 13:37:54 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:00 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:38:00 DRONES: x500* (none)
+2026-06-05 13:38:00 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:00 CARGO: cargo* (none)
+2026-06-05 13:38:00 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:05 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:38:05 DRONES: x500* (none)
+2026-06-05 13:38:05 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:05 CARGO: cargo* (none)
+2026-06-05 13:38:05 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:11 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:38:11 DRONES: x500* (none)
+2026-06-05 13:38:11 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:11 CARGO: cargo* (none)
+2026-06-05 13:38:11 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:17 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:38:17 DRONES: x500* (none)
+2026-06-05 13:38:17 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:17 CARGO: cargo* (none)
+2026-06-05 13:38:17 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:22 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=ARMING station=station-uav-home task=; ugv-scenario-2=ARMING station=station-ugv-home task=
+2026-06-05 13:38:22 DRONES: x500* (none)
+2026-06-05 13:38:22 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:22 CARGO: cargo* (none)
+2026-06-05 13:38:22 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:28 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent= | agents: uav-scenario-2=AVAILABLE station=station-uav-home task=; ugv-scenario-2=AVAILABLE station=station-ugv-home task=
+2026-06-05 13:38:28 DRONES: x500* (none)
+2026-06-05 13:38:28 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:28 CARGO: cargo* (none)
+2026-06-05 13:38:28 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:34 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=AVAILABLE agent= | agents: uav-scenario-2=AVAILABLE station=station-uav-home task=; ugv-scenario-2=AVAILABLE station=station-ugv-home task=
+2026-06-05 13:38:34 DRONES: x500* (none)
+2026-06-05 13:38:34 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:34 CARGO: cargo* (none)
+2026-06-05 13:38:34 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:39 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:38:39 DRONES: x500* (none)
+2026-06-05 13:38:39 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:39 CARGO: cargo* (none)
+2026-06-05 13:38:39 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:45 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:38:45 DRONES: x500* (none)
+2026-06-05 13:38:45 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:45 CARGO: cargo* (none)
+2026-06-05 13:38:45 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:50 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:38:50 DRONES: x500* (none)
+2026-06-05 13:38:50 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:50 CARGO: cargo* (none)
+2026-06-05 13:38:50 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:38:56 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:38:56 DRONES: x500* (none)
+2026-06-05 13:38:56 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:38:56 CARGO: cargo* (none)
+2026-06-05 13:38:56 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:01 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:01 DRONES: x500* (none)
+2026-06-05 13:39:01 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:01 CARGO: cargo* (none)
+2026-06-05 13:39:01 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:07 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:07 DRONES: x500* (none)
+2026-06-05 13:39:07 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:07 CARGO: cargo* (none)
+2026-06-05 13:39:07 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:12 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:12 DRONES: x500* (none)
+2026-06-05 13:39:12 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:12 CARGO: cargo* (none)
+2026-06-05 13:39:12 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:17 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:17 DRONES: x500* (none)
+2026-06-05 13:39:17 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:17 CARGO: cargo* (none)
+2026-06-05 13:39:17 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:23 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:23 DRONES: x500* (none)
+2026-06-05 13:39:23 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:23 CARGO: cargo* (none)
+2026-06-05 13:39:23 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:28 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:28 DRONES: x500* (none)
+2026-06-05 13:39:28 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:28 CARGO: cargo* (none)
+2026-06-05 13:39:28 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:34 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:34 DRONES: x500* (none)
+2026-06-05 13:39:34 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:34 CARGO: cargo* (none)
+2026-06-05 13:39:34 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:39 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:39 DRONES: x500* (none)
+2026-06-05 13:39:39 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:39 CARGO: cargo* (none)
+2026-06-05 13:39:39 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:44 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:44 DRONES: x500* (none)
+2026-06-05 13:39:44 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:44 CARGO: cargo* (none)
+2026-06-05 13:39:44 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:50 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:50 DRONES: x500* (none)
+2026-06-05 13:39:50 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:50 CARGO: cargo* (none)
+2026-06-05 13:39:50 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:39:55 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:39:55 DRONES: x500* (none)
+2026-06-05 13:39:55 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:39:55 CARGO: cargo* (none)
+2026-06-05 13:39:55 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:01 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=IN_PROGRESS agent=ugv-scenario-2; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=BUSY station= task=staging:ea5776a8-d678-41b6-9413-a7e3e946db49:station-uav-home
+2026-06-05 13:40:01 DRONES: x500* (none)
+2026-06-05 13:40:01 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:01 CARGO: cargo* (none)
+2026-06-05 13:40:01 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:06 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; staging:…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:06 DRONES: x500* (none)
+2026-06-05 13:40:06 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:06 CARGO: cargo* (none)
+2026-06-05 13:40:06 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:12 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:12 DRONES: x500* (none)
+2026-06-05 13:40:12 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:12 CARGO: cargo* (none)
+2026-06-05 13:40:12 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:17 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:17 DRONES: x500* (none)
+2026-06-05 13:40:17 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:17 CARGO: cargo* (none)
+2026-06-05 13:40:17 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:23 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:23 DRONES: x500* (none)
+2026-06-05 13:40:23 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:23 CARGO: cargo* (none)
+2026-06-05 13:40:23 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:28 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:28 DRONES: x500* (none)
+2026-06-05 13:40:28 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:28 CARGO: cargo* (none)
+2026-06-05 13:40:28 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:34 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:34 DRONES: x500* (none)
+2026-06-05 13:40:34 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:34 CARGO: cargo* (none)
+2026-06-05 13:40:34 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:39 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:39 DRONES: x500* (none)
+2026-06-05 13:40:39 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:39 CARGO: cargo* (none)
+2026-06-05 13:40:39 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:45 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:45 DRONES: x500* (none)
+2026-06-05 13:40:45 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:45 CARGO: cargo* (none)
+2026-06-05 13:40:45 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:50 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:50 DRONES: x500* (none)
+2026-06-05 13:40:50 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:50 CARGO: cargo* (none)
+2026-06-05 13:40:50 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:40:56 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:40:56 DRONES: x500* (none)
+2026-06-05 13:40:56 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:40:56 CARGO: cargo* (none)
+2026-06-05 13:40:56 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:02 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:02 DRONES: x500* (none)
+2026-06-05 13:41:02 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:02 CARGO: cargo* (none)
+2026-06-05 13:41:02 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:07 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:07 DRONES: x500* (none)
+2026-06-05 13:41:07 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:07 CARGO: cargo* (none)
+2026-06-05 13:41:07 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:12 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:12 DRONES: x500* (none)
+2026-06-05 13:41:12 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:12 CARGO: cargo* (none)
+2026-06-05 13:41:12 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:18 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:18 DRONES: x500* (none)
+2026-06-05 13:41:18 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:18 CARGO: cargo* (none)
+2026-06-05 13:41:18 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:23 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:23 DRONES: x500* (none)
+2026-06-05 13:41:23 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:23 CARGO: cargo* (none)
+2026-06-05 13:41:23 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:28 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:28 DRONES: x500* (none)
+2026-06-05 13:41:29 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:29 CARGO: cargo* (none)
+2026-06-05 13:41:29 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:34 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:34 DRONES: x500* (none)
+2026-06-05 13:41:34 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:34 CARGO: cargo* (none)
+2026-06-05 13:41:34 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:39 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:39 DRONES: x500* (none)
+2026-06-05 13:41:39 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:39 CARGO: cargo* (none)
+2026-06-05 13:41:39 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:45 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:45 DRONES: x500* (none)
+2026-06-05 13:41:45 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:45 CARGO: cargo* (none)
+2026-06-05 13:41:45 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:50 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:50 DRONES: x500* (none)
+2026-06-05 13:41:50 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:50 CARGO: cargo* (none)
+2026-06-05 13:41:50 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:41:56 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:41:56 DRONES: x500* (none)
+2026-06-05 13:41:56 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:41:56 CARGO: cargo* (none)
+2026-06-05 13:41:56 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:42:01 NETWORK: shipment: 4ab9329f…=WAITING station= carrier= | tasks: ea5776a8…=AVAILABLE agent=; rebalanc…=IN_PROGRESS agent=uav-scenario-2 | agents: uav-scenario-2=BUSY station= task=rebalance:station-uav-home:station-ugv-home; ugv-scenario-2=AVAILABLE station= task=
+2026-06-05 13:42:01 DRONES: x500* (none)
+2026-06-05 13:42:01 PACKAGES: package_visual: x=0.17 y=0.17 z=0.03
+2026-06-05 13:42:01 CARGO: cargo* (none)
+2026-06-05 13:42:01 STATIONS: station_base_visual: x=-0.45 y=-0.40 z=0.06
+2026-06-05 13:42:06 Monitor stopped before DELIVERED (timeout or error).
+2026-06-05 13:42:06 === Gazebo position monitor finished ===

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.controller.RoutePlannerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-17T10:21:11" hostname="JAMJESTPC" time="0.013">
+  <properties/>
+  <testcase name="planner accepts feasible task()" classname="pl.edu.wat.uavlogistics.controller.RoutePlannerTest" time="0.011"/>
+  <testcase name="uav planToPoint inserts detour around peer obstacle()" classname="pl.edu.wat.uavlogistics.controller.RoutePlannerTest" time="0.001"/>
+  <testcase name="planner rejects tasks outside energy reserve()" classname="pl.edu.wat.uavlogistics.controller.RoutePlannerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

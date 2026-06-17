@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-06-17T10:21:11" hostname="JAMJESTPC" time="0.009">
+  <properties/>
+  <testcase name="cruise route keeps minimum flight altitude()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.002"/>
+  <testcase name="uav package delivery mission cruises then lands without set home()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="contact mission descends to package altitude()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="ugv package return mission ends at pad waypoint()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="uav hub parking mission lands at pad()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="uav route includes takeoff when starting on the ground()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="ugv package pickup mission is waypoints only without set home()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="uav package pickup mission cruises then lands()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.0"/>
+  <testcase name="ugv hub parking mission is waypoints only()" classname="pl.edu.wat.uavlogistics.controller.MissionBuildersTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

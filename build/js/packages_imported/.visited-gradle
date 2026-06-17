@@ -1,0 +1,102 @@
+{
+  "version": "9",
+  "items": {
+    "cfcee03cdefc1ec904d922b8086ed6cd": {
+      "src": "C:\\Users\\Szymon\\AppData\\Local\\Temp\\cursor-sandbox-cache\\e0795c1c2f5920a918a150aa92022c64\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-js\\2.0.21\\8047778f196f3cdc817f1e90eb45f08b4837ba9\\kotlin-stdlib-js-2.0.21.klib"
+    },
+    "03db1d31f832ab3d78b4cb1f877b57a3": {
+      "src": "C:\\Users\\Szymon\\AppData\\Local\\Temp\\cursor-sandbox-cache\\e0795c1c2f5920a918a150aa92022c64\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-dom-api-compat\\2.0.21\\537dbda0c5c5ee06c81b2c0d1f466df60d810e3f\\kotlin-dom-api-compat-2.0.21.klib"
+    },
+    "7323f2e101d0df459c3ca907e65ee2ca": {
+      "src": "C:\\Users\\Szymon\\AppData\\Local\\Temp\\cursor-sandbox-cache\\e0795c1c2f5920a918a150aa92022c64\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-js\\1.9.0\\155bfdad6f6ebdde0a8049053675623eb3a1e36f\\kotlinx-coroutines-core-js-1.9.0.klib"
+    },
+    "dd02831410adcddecefea4c35d5f321e": {
+      "src": "C:\\Users\\Szymon\\AppData\\Local\\Temp\\cursor-sandbox-cache\\e0795c1c2f5920a918a150aa92022c64\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\atomicfu-js\\0.25.0\\913782d5387faf78c6ceab08ed19a290bcd000f9\\atomicfu-js-0.25.0.klib"
+    },
+    "53e4d184e3f599ec39ce21b9cfb9f9dc": {
+      "src": "C:\\Users\\Szymon\\AppData\\Local\\Temp\\cursor-sandbox-cache\\e0795c1c2f5920a918a150aa92022c64\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlinx-atomicfu-runtime\\2.0.0\\5dd3b6879cd1d19249083132503a739f8558426d\\kotlinx-atomicfu-runtime-2.0.0.klib"
+    },
+    "fffad12d968e557f4c38a7f8f56b463e": {
+      "src": "C:\\Users\\Szymon\\AppData\\Local\\Temp\\cursor-sandbox-cache\\e0795c1c2f5920a918a150aa92022c64\\gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js-runner\\2.0.21\\99e060b94579ec8542bc53e141b0d7ed9a48ad5d\\kotlin-test-js-runner-2.0.21.jar",
+      "target": "kotlin-test-js-runner\\0.0.2"
+    },
+    "b1171ff0f99a90ab9ffd6c697dc14d9d": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.runtime\\runtime-js\\1.7.1\\cf3494a3a7ba554b609f36f9944c9cd4eff49f52\\runtime-js-1.7.1.klib"
+    },
+    "e7d194b2b9b0796021cf909f336d4ae6": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.collection-internal\\collection-js\\1.7.1\\851b7b4ab55c46d1674be1c82ae308ed0d499a8f\\collection-js-1.7.1.klib"
+    },
+    "c40239a4d8c28eab0677446db5cfff5e": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.annotation-internal\\annotation-js\\1.7.1\\d79c8a4f5f64a1b89b7fe4c1b2b9b234c8e9c61f\\annotation-js-1.7.1.klib"
+    },
+    "e3c71d140520c1a7f3813f52978de616": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.foundation\\foundation-js\\1.7.1\\a593f895a839f900ba293e7f62e929d7399b9d3\\foundation-js-1.7.1.klib"
+    },
+    "01c5729a9e5729d227e74ce8a455212f": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.animation\\animation-js\\1.7.1\\37710f47d4546d032f21ca31a45ef375fddd022e\\animation-js-1.7.1.klib"
+    },
+    "832a781be4fe167cec17b187ddf00ad8": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.foundation\\foundation-layout-js\\1.7.1\\66b9a789793ea57cd34cfdc58528ebd12ba2eb55\\foundation-layout-js-1.7.1.klib"
+    },
+    "1143580d2752c20e0b8b7449d2ac173d": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.ui\\ui-js\\1.7.1\\61e4dc2590ddad770c3992049c64b762abbaa95\\ui-js-1.7.1.klib"
+    },
+    "d3ba8c8d76f986895a380422890bc08d": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.ui\\ui-text-js\\1.7.1\\f864fca0fe92f88ea6d504f401e91ca706eabf83\\ui-text-js-1.7.1.klib"
+    },
+    "c02bf5b20fc49605dd00682cc1bfc1f5": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.ui\\ui-graphics-js\\1.7.1\\acadaba9b867ea452c4c2fa1549eb880a3e6c184\\ui-graphics-js-1.7.1.klib"
+    },
+    "654234413a430208c09e975af67b6618": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.ui\\ui-unit-js\\1.7.1\\1c6f53976af7cb1f411cb50078e48fd1a325b98d\\ui-unit-js-1.7.1.klib"
+    },
+    "ded713a273ee1d092f2bddfe9360c91f": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.ui\\ui-geometry-js\\1.7.1\\f5d5cc1b568b26d48fc4bbbb548f08e2f88fcbf1\\ui-geometry-js-1.7.1.klib"
+    },
+    "fc8d09d46a6fcbcfa5c32588f08daa37": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.ui\\ui-util-js\\1.7.1\\7ee0ad42cccef344a0d9875ef7a9167e144e9a4d\\ui-util-js-1.7.1.klib"
+    },
+    "4bf21b92fbabc5dd9a3b64ea7d7c7145": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.skiko\\skiko-js\\0.8.18\\b649fdddc9460463cb932adf1add9f0cc9d473a9\\skiko-js-0.8.18.klib",
+      "target": "skiko-js\\0.8.18"
+    },
+    "cfe613044691a0b10b4321b0636e06ea": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.runtime\\runtime-saveable-js\\1.7.1\\178f388ca27ee8d6083e9d6485d074f8c9d74148\\runtime-saveable-js-1.7.1.klib"
+    },
+    "0a0379ccc2c9f16cfc82023312aba2ce": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.androidx.lifecycle\\lifecycle-runtime-compose-js\\2.8.4\\4f354273440ae0ef9ad79d5628a382a6b8395e75\\lifecycle-runtime-compose-js-2.8.4.klib"
+    },
+    "f4fcb2d4757f7ce52522637d185843bb": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.androidx.lifecycle\\lifecycle-runtime-js\\2.8.4\\70cf15b86ae89e3d639bb63892934c33211b6c6e\\lifecycle-runtime-js-2.8.4.klib"
+    },
+    "c22caabe72b9869b857888f82498441a": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.androidx.lifecycle\\lifecycle-common-js\\2.8.4\\d519a0547599d3695306dfe6180857f9eb9d37c1\\lifecycle-common-js-2.8.4.klib"
+    },
+    "186dfd6b5da1254d2120cdb0f903ff76": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.androidx.lifecycle\\lifecycle-viewmodel-js\\2.8.4\\4ee85bd3e584312880d58d344de398903174dba4\\lifecycle-viewmodel-js-2.8.4.klib"
+    },
+    "a6322db18a73dc0754317cedef2b2063": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.animation\\animation-core-js\\1.7.1\\8a37a4874614993d5a6dc60e2717db88fb78058f\\animation-core-js-1.7.1.klib"
+    },
+    "b4f76ed9845a70afc57b3a1898e0fce4": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.material3\\material3-js\\1.7.1\\d447717e4994b59a759ec192314ac7774b1c3858\\material3-js-1.7.1.klib"
+    },
+    "0c14c1aa1d7ee9263f899ac1bae88b32": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.material\\material-ripple-js\\1.7.1\\ee3f0282a059ac444725c92ff25c030990db2fa9\\material-ripple-js-1.7.1.klib"
+    },
+    "9a27a364670fa8015d7e1908e97eaaf0": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.material\\material-icons-core-js\\1.7.1\\e1758399b3d6ab37d1bc57e8f3606ce9b176bec5\\material-icons-core-js-1.7.1.klib"
+    },
+    "e50e9b0b75e0c45c430c945f0adfbc19": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-datetime-js\\0.6.0\\12badb635a405f5be33850fef55005681598be13\\kotlinx-datetime-js-0.6.0.klib",
+      "target": "Kotlin-DateTime-library-kotlinx-datetime\\0.6.0"
+    },
+    "aabd2f46fead63ab3b52bd090077097e": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-serialization-core-js\\1.6.2\\27bceec3b89d0eec8f951f8b25f16fffa0df214e\\kotlinx-serialization-core-js-1.6.2.klib"
+    },
+    "64e84c39ce6ffe477c461e97d617fe79": {
+      "src": "C:\\Users\\Szymon\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.components\\components-resources-js\\1.7.1\\49691c054e9746e632b0ea749ef4f4c73b791f8e\\library-js-1.7.1.klib",
+      "target": "components-resources-js\\1.7.1"
+    }
+  }
+}
